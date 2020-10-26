@@ -7,12 +7,5 @@ root = Tk()
 root.title('Sorting Algorithm Visualisation')
 root.geometry('900x600')
 root.config()
-#variables
-selected_alg = StringVar()
-
-
-#frame / base lauout
 control_frame = Control_Frame(root)
-
-root.width
 root.mainloop()
