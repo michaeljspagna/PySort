@@ -11,7 +11,7 @@ class Merge_Sort():
         if left < right: 
             mid = (left + right) // 2
             self.merge_sort(left, mid)
-            self.merge_sort(mid+1, left)
+            self.merge_sort(mid+1, right)
             self.merge(left, mid, right)
     
     def merge(self, left, mid, right):
